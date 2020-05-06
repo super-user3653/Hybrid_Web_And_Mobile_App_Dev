@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <style>
+      body {
+        font-family: monospace;
+        font-size: 110%;
+ 
+        padding: 10px;
+      }
+      fieldset {
+        background-color: rgb(105, 62, 185);
+        color: white;
+        padding: 15px;
+        margin-left: 550px;
+        margin-right: 550px;
+      }
+      p{
+        margin-left: 0px;
+      }
+
+      input{
+        padding: 5px;
+        margin-left: 0px;
+
+      }
+
+      input:hover {
+        background-color: rgb(211, 211, 211);
+
+      }
+      textarea:hover {
+        background-color: rgb(211, 211, 211);
+        }
+
+      #firstname{
+        margin-left: 41px;
+      }
+      #lastname{
+        margin-left: 50px;
+      }
+      #dob{
+        margin-top: -25px;
+      }
+      select{
+        margin-left: 7px;
+      }
+      #email{
+        margin-left: 58px;
+      }
+      #mobilenumber{
+        margin-left: 6px;
+        margin-top: -30px;
+      }
+      #mender{
+        margin-left: 83px;
+      }
+      #addname{
+        margin-top: -10px;
+      }
+      #address{
+        margin-left: 133px;
+        margin-top: -40px;
+      }
+      #cityname{
+        margin-left: 46px;
+      }
+      #pincode{
+        margin-left: 54px;
+      }
+      #pincode{
+        margin-left: 54px;
+      }
+      #state{
+        margin-left: 77px;
+      }
+      #country{
+        margin-left: 59px;
+      }
+      #hobbiesname{
+        margin-right: 55px;
+      }
+      #hobbother{
+        margin-left: 123px;
+      }
+      #bca{
+        margin-left: 18px;
+      }
+      .submit{
+        border-radius: 7px;
+      }
+      img{
+        margin-left: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div align="center">
+      <img src="logo.png">
+      <h1 style="margin-left: 190px; text-decoration: underline; color: rgb(105, 62, 185);;">STUDENT REGISTRATION FORM</h1>
+    </div>
+    <fieldset>
+      <div>
+      <form action="done.html">
+        <p>FIRST NAME         <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          required="required"
+          maxlength="30"
+          placeholder="Enter first name"
+        />        <label for="firstname">(max 30 characters a-z and A-Z)</label><br /></p>
+
+
+
+        <p>LAST NAME
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          required="required"
+          maxlength="30"
+          placeholder="Enter last name"
+        />
+        <label for="firstname">(max 30 characters a-z and A-Z)</label></p><br />
+        <p><div id="dob"><label for="birthdate">Date Of Birth:</label>
+            <select required="required">
+              <option value="date">Day</option>
+              <option value="date">1</option>
+              <option value="date">2</option>
+              <option value="date">3</option>
+              <option value="date">4</option>
+              <option value="date">5</option>
+              <option value="date">6</option>
+              <option value="date">7</option>
+              <option value="date">8</option>
+              <option value="date">9</option>
+              <option value="date">10</option>
+              <option value="date">11</option>
+              <option value="date">12</option>
+              <option value="date">13</option>
+              <option value="date">14</option>
+              <option value="date">15</option>
+              <option value="date">16</option>
+              <option value="date">17</option>
+              <option value="date">18</option>
+              <option value="date">19</option>
+              <option value="date">20</option>
+              <option value="date">21</option>
+              <option value="date">22</option>
+              <option value="date">23</option>
+              <option value="date">24</option>
+              <option value="date">25</option>
+              <option value="date">26</option>
+              <option value="date">27</option>
+              <option value="date">28</option>
+              <option value="date">29</option>
+              <option value="date">30</option>
+              <option value="date">31</option>
+
+            </select>
+            <select required="required">
+              <option value="date">Month</option>
+              <option value="date">January</option>
+              <option value="date">Febuary</option>
+              <option value="date">March</option>
+              <option value="date">April</option>
+              <option value="date">May</option>
+              <option value="date">June</option>
+              <option value="date">July</option>
+              <option value="date">August</option>
+              <option value="date">September</option>
+              <option value="date">October</option>
+              <option value="date">November</option>
+              <option value="date">December</option>
+            </select>
+            <select required="required">
+              <option value="date">Year</option>
+              <option value="date">2002</option>
+              <option value="date">2001</option>
+              <option value="date">2000</option>
+              <option value="date">1999</option>
+              <option value="date">1998</option>
+              <option value="date">1997</option>
+              <option value="date">1996</option>
+              <option value="date">1995</option>
+              <option value="date">1994</option>
+              <option value="date">1993</option>
+              <option value="date">1992</option>
+              <option value="date">1991</option>
+              <option value="date">1990</option>
+              <option value="date">1989</option>
+              <option value="date">1988</option>
+              <option value="date">1987</option>
+              <option value="date">1986</option>
+              <option value="date">1985</option>
+              <option value="date">1984</option>
+              <option value="date">1983</option>
+              <option value="date">1982</option>
+              <option value="date">1981</option>
+              <option value="date">1980</option>
+              <option value="date">1979</option>
+              <option value="date">1978</option>
+              <option value="date">1977</option>
+              <option value="date">1976</option>
+              <option value="date">1975</option>
+              <option value="date">1974</option>
+              <option value="date">1973</option>
+              <option value="date">1972</option>
+              <option value="date">1971</option>
+              <option value="date">1970</option>
+              <option value="date">1969</option>
+              <option value="date">1968</option>
+              <option value="date">1967</option>
+              <option value="date">1966</option>
+              <option value="date">1965</option>
+              <option value="date">1964</option>
+              <option value="date">1963</option>
+              <option value="date">1962</option>
+
+            </select>
+            </div>
+            </p>
+
+
+        <p>EMAIL ID
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required="required"
+          placeholder="Enter email id"
+        /></p><br />
+
+        <label for="email">MOBILE NUMBER:</label>
+        <input
+          type="number"
+          name="mobilenumber"
+          id="mobilenumber"
+          required="required"
+          placeholder="Enter Number"
+          maxlength="10"
+        /><label for="mobilenumber">(10 Digit Number)</label><br />
+        <p >GENDER<span id="mender">Male</span>
+        <input
+          type="radio"
+          name="gender"
+          value="male"
+          checked="checked"
+          class="malegender"
+          class="gender"
+          
+        />
+        Female
+        <input
+          type="radio"
+          name="gender"
+          value="female"
+          class="femalegender"
+          class="gender"
+        />
+        </p><br />
+         <p><span id="addname">ADDRESS</span></p>
+        <textarea name="address" id="address" cols="25" rows="3" required="required"></textarea>
+        <br />
+        <p>CITY NAME
+        <input
+          type="text"
+          name="cityname"
+          id="cityname"
+          required="required"
+          maxlength="30"
+          placeholder="Enter City Name"
+        /><label for="cityname">(max 30 characters a-z and A-Z)</label></p><br />
+        <p>PIN CODE
+        <input
+          type="number"
+          name="pincode"
+          required="required"
+          id="pincode"
+          placeholder="Enter Pin Code"
+          maxlength="6"
+        /><label for="pincode">(6 Digit Number)</label></p><br />
+        <p>STATE
+        <input type="text" name="state" id="state" placeholder="Enter State" required="required"/>
+        <label for="state">(max 30 characters a-z and A-Z)</label></p><br />
+
+        <p>Country
+        <input
+          type="text"
+          name="country"
+          id="country"
+          placeholder="Enter Country"
+          required
+        /></p><br />
+        <p><span id="hobbiesname">Hobbies</span>
+        Drawing<input type="checkbox" name="hobbies"
+        value="drawing" class="hobbies"/>
+        Singing<input type="checkbox" name="hobbies"
+        value="singing" class="hobbies"/>
+        Dancing<input type="checkbox" name="hobbies"
+        value="dancing" class="hobbies"/>
+        Sketching<input type="checkbox" name="hobbies"
+        value="sketching" class="hobbies"/><br>
+        <span id="hobbother">Others<input type="checkbox" name="hobbies"
+        value="ohthers" class="hobbies"/>
+        <input type="text" name="hobbies" id="hobbbies">
+       </p></span><br>
+       <p>
+         
+         <table>
+           <tr>
+             <td>Qualification</td>
+             <td id="onesino">Si.No</td>
+             <td id="oneexam">Examination</td>
+             <td id="oneboard">Board</td>
+             <td id="onepercentage">Percentage</td>
+             <td id="oneyof">Year Of Passing</td>
+
+           </tr>
+           
+           <tr>
+             <td></td>
+            <td id="twosino">1</td>
+            <td id="twoexam">Class X</td>
+            <td id="twoboard"><input type="text"></td>
+            <td id="twopercentage"><input type="text"></td>
+            <td id="twoyof"><input type="text"></td>
+           </tr>
+           <tr>
+            <td></td>
+            <td id="twosino">2</td>
+            <td id="twoexam">Class X11</td>
+            <td id="twoboard"><input type="text"></td>
+            <td id="twopercentage"><input type="text"></td>
+            <td id="twoyof"><input type="text"></td>
+           </tr>
+           <tr>
+            <td></td>
+            <td id="twosino">3</td>
+            <td id="twoexam">Graduation</td>
+            <td id="twoboard"><input type="text"></td>
+            <td id="twopercentage"><input type="text"></td>
+            <td id="twoyof"><input type="text"></td>
+           </tr>
+           <tr>
+            <td></td>
+            <td id="fivesino">4</td>
+            <td id="fiveexam">Masters</td>
+            <td id="twoboard"><input type="text"></td>
+            <td id="twopercentage"><input type="text"></td>
+            <td id="twoyof"><input type="text"></td>
+           </tr>
+         </table>
+       </p>
+       <p>
+         COURSES <br>APPLIED FOR <span id="bca">BCA</span>
+         <input type="radio" name="courses id="">
+         B.com
+         <input type="radio" name="courses" id="">
+         B.Sc
+         <input type="radio" name="courses" id="">
+         B.A
+         <input type="radio" name="courses" id="">
+       </p>
+       <div align="center">
+        <input type="submit" value="Submit" name="submit" class="submit"/>
+        <input type="reset" name="" class="submit">
+      </div>
+
+      </form>
+    </div>
+    </fieldset>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.14.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.14.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+  </body>
+</html>
